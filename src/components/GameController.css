@@ -1,0 +1,9 @@
+.h5 {
+  color: #e3daed;
+  padding: 0.3rem;
+  border: 0.3rem double #ceb5e6;
+}
+
+.GameController {
+  z-index: -1;
+}

@@ -1,0 +1,26 @@
+.gameStats {
+  width: 5rem;
+  list-style-type: none;
+  color: #ceb5e6;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.gameStats__left {
+  right: 0;
+  top: 22vh;
+  text-align: left;
+}
+
+.gameStats__right {
+  right: 15rem;
+  bottom: 0;
+  text-align: left;
+}
+
+.gameStats .value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0rem;
+  color: #e3daed;
+}

@@ -1,0 +1,15 @@
+.tetris {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftRow {
+  width: 60%;
+}
+
+.rightRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
