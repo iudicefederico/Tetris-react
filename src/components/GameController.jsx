@@ -17,6 +17,8 @@ export default function GameController({
   });
 
   useInterval(() => {
+    const gameControllerInput = document.querySelector(".GameController");
+    gameControllerInput.focus();
     handleInput({ action: Action.SlowDrop });
   }, dropTime);
 
@@ -37,10 +39,6 @@ export default function GameController({
     } else if (action === Action.Quit) {
       setGameOver(true);
     } else {
-      if (actionIsDrop(action)) pauseDropTime();
-      if (!dropTime) {
-        return;
-      }
       handleInput({ action });
     }
   };
